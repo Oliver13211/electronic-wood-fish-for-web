@@ -1,6 +1,5 @@
-import Head, { Foot } from "./head";
-import 'mdui/mdui.css';
-import 'mdui';
+import Head from "./head";
+import Foot from "./foot";
 import "./globals.css";
 export default function RootLayout() {
   return (
@@ -13,5 +12,5 @@ export default function RootLayout() {
         <Foot/>
       </body>
     </html>
-  );
+  )
 }

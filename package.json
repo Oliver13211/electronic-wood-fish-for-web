@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "mdui": "^2.1.4",
+    "@mdui/icons": "^1.0.3",
     "next": "15.4.0-canary.51",
     "react": "19.1.0",
     "react-dom": "19.1.0"

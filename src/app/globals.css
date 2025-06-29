@@ -1,7 +1,7 @@
 #head,#foot{
     background-color:#fdbd31;
     border-radius: 10px;
-    width: 30%;
+    width: 75%;
     margin: 0 auto;
 }
 #title,#title-sub{
@@ -9,12 +9,23 @@
     color: white;
 }
 #foot{
-    margin-top: 35%;
+    margin-top: 20%;
 }
 .foot-text{
     color: white;
 }
 #title-sub{
     font-size: 10px;
-    color:rgba(128,128,128,0.5)
+    color:gainsboro
+}
+body{
+    background-color: black;
+}
+#foot-flex{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items:center;
+    width: 20%;
+    margin-left: 5%;
 }
