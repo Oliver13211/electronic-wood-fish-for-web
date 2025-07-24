@@ -1,20 +1,21 @@
 {
-  "homepage": "https://oliver13211.github.io/electronic-wood-fish-for-web",
+  "homepage": "https://oliver13211.github.io",
   "name": "electronic-wood-fish-for-web",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "export": "next export",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "@mdui/icons": "^1.0.3",
     "antd": "^5.26.6",
-    "next": "15.4.0-canary.51",
+    "next": "^15.4.0-canary.51",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
