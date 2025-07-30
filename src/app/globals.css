@@ -1,7 +1,7 @@
 #head,#foot{
     background-color:#fdbd31;
     border-radius: 10px;
-    width: 75%;
+    width: 60%;
     margin: 0 auto;
 }
 #title,#title-sub{
@@ -9,7 +9,10 @@
     color: white;
 }
 #foot{
-    margin-top: 20%;
+     margin-top: 5%;
+}
+#head{
+    margin-bottom: 5%;
 }
 .foot-text{
     color: white;
@@ -28,4 +31,8 @@ body{
     align-items:center;
     width: 20%;
     margin-left: 5%;
+}
+#body{
+    width: 60%;
+    margin: 0 auto;
 }
