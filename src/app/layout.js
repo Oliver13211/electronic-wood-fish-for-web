@@ -1,18 +1,12 @@
-import Head from "./head";
-import Foot from "./foot";
-import Body from "./body";
-import "./globals.css";
-export default function RootLayout() {
+export const metadata = {
+  title: '电子木鱼网页版',
+  description: '王中王荣誉出品',
+}
+
+export default function RootLayout({ children }) {
   return (
-    <html lang="zh-cn">
-      <head>
-        <title>电子木鱼网页版</title>
-      </head>
-      <body>
-        <Head />
-        <Body />
-        <Foot/>
-      </body>
+    <html lang="en">
+      <body>{children}</body>
     </html>
   )
 }
